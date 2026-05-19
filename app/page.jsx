@@ -198,7 +198,7 @@ export default function Page() {
                   value={taxRateRetirement} onChange={e => setTaxRateRetirement(e.target.value)} onKeyDown={e => e.key === "Enter" && calculate()} />
                 <span className="rvt-suffix" style={{ right: "0" }}>%</span>
               </div>
-              <p className="rvt-field-label" style={{ marginTop: ".3rem", fontSize: "10px" }}">Most retirees have lower income</p>
+              <p className="rvt-field-label" style={{ marginTop: ".3rem", fontSize: "10px" }}>Most retirees have lower income</p>
             </div>
             <div style={{ display: "flex", alignItems: "flex-end" }}>
               <button className="rvt-calc-btn" onClick={calculate}>Compare accounts →</button>
