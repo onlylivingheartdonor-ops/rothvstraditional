@@ -100,7 +100,7 @@ export default function Page() {
         </p>
 
         {/* INTERACTIVE TOOL — client component */}
-        <RothCalculator />
+        <RothVsTraditionalCalculator />
 
         {/* THE KEY QUESTION */}
         <div className="rvt-card">
