@@ -1,4 +1,4 @@
-import RothCalculator from "./RothCalculator"
+import RothVsTraditionalCalculator from "./RothVsTraditionalCalculator"
 import { RELATED_LINKS as RELATED } from "./lib/links"
 
 const staticCss = `
